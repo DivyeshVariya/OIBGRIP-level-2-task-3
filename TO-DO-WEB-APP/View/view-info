@@ -1,0 +1,6 @@
+This folder are the full Web-App view of the TO-DO Web App using HTML , CSS and JAVASCRIPT.
+Whole code seperated by technology or language type's files accordingly.
+
+This to-do web app show the list of the task by the status of the task complated or pendding section wise.
+Also this app show the task data modification date and time according to task when updated.
+And also we can edit or delete each task from pendding or/and complated tasks list.
