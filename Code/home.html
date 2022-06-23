@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do Web App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="main-container">
+    <h1>To-Do Web App</h1>
+    <form id="task-form">
+        <label id="title" >Task Title :</label>
+        <input type="text" name="task-title" id="task-input-title">
+        <br>
+        <label id="title">Task Description :</label>
+        <input type="text" name="task-descip" id="task-input-descrip">
+
+        <input type="submit" id="task-submit" name="submit" value="Add">
+    </form>
+    <div class="task-list">
+        <div class="pendding-task">
+            <h3>Pendding Tasks</h3>
+            <table id="pendding-task-table">
+                <tr >
+                <th class="task-head">Status</th>
+                <th class="task-head addstyle">Title</th>
+                <th class="task-head addstyle">Description</th>
+                <th class="task-head">Last Task Updation Date&Time</th>
+                <th class="task-head">Edit</th>
+                <th class="task-head">Delete</th>
+                </tr>
+            </table>
+        </div>
+        <div class="complate-task">
+            <h3>Complated Tasks</h3>
+            <table id="complate-task-table">
+                <tr >
+                    <th class="task-head"></th>
+                    <th class="task-head addstyle">Title</th>
+                    <th class="task-head addstyle">Description</th>
+                    <th class="task-head">Task Completion Date&Time</th>
+                    <th class="task-head">Edit</th>
+                    <th class="task-head">Delete</th>
+                    </tr>
+            </table>
+        </div>
+    </div>
+    </div>
+    </div>
+    <footer>
+        <p class="f-text">© All Rights Resived </p>
+        <p class="f-text">Create by : Variya Divyesh M. Contact on : <a href="mailto:divyeshvariya106@gmail.com">divyeshvariya106@gmail.com</a> or <a href="tel:+917778029116">+91-7778029116</a></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
